@@ -1,0 +1,208 @@
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/00.jpg  alt="Spielplatz, Davenportplatz"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/01.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/02.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/03.jpg  alt="Library, Building 42, in front of mensa "/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/04.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/05.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/06.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/07.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/08.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/09.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/10.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/11.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/12.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/13.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/14.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/15.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/16.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/17.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/18.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/19.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/20.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/21.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/22.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/23.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/24.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/25.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/26.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/27.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/28.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/29.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/30.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/31.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/32.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/33.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/34.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/35.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/36.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/37.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/38.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/39.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/40.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/41.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/42.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/43.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/44.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/45.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/46.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/47.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/48.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/49.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/50.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+
+<div class="pic-frame">
+	<img id="g-img" class = "thumbnail" src=img/pic-from-g/51.jpg  alt="No caption (｡･∀･)ﾉﾞ"/>
+</div>
+

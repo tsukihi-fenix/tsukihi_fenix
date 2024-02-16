@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style_subpage.css">
   <link rel="stylesheet" href="style_pic.css">
+  <meta charset="utf-8">
 </head>
 <body>
   
@@ -34,7 +35,7 @@
     <div class="main-content">
 
       <div class="left-main">
-        <a class=left-username href="tsukihi_fenix.php">
+        <a class=left-username href="tsukihi_fenix.html">
           <div class="online-dot">
             <span class="dot" id="d-online"></span>
           </div>
@@ -44,7 +45,7 @@
         </a>
 
         <div class="active-page" >
-          <a class="back-button" href="index.php">
+          <a class="back-button" href="index.html">
             <img src="img/left-arrow-white.png" alt="back" width=12px>
           </a>
           <div class="active-page-title">
@@ -52,19 +53,17 @@
           </div>
         </div>  
 
-        <a class="catalogue-slim" id="cts1" href="picfromgermany.php">
-          <div class="cat-text" id="ct-txt-b1-1">
-            <p><b>All</b></p>
-          </div>
-        </a>
-        
-
         <div class="catalogue-slim" id="active">
-          <div class="cat-text" id="ct-txt-b1-1">
-            <p><b>TU Kaiserslautern</b></p>
-          </div>
+            <div class="cat-text" id="ct-txt-b1-1">
+              <p><b>All</b></p>
+            </div>
         </div>
-        
+
+        <a class="catalogue-slim" id="cts1" href="pic_tuk.html">
+            <div class="cat-text" id="ct-txt-b1-1">
+              <p><b>TU Kaiserslautern</b></p>
+            </div>
+        </a>
 
         <a class="catalogue-slim" id="cts1" href="">
             <div class="cat-text" id="ct-txt-b1-1">
@@ -89,25 +88,27 @@
         <?php 
           $dir = 'img/pic-from-g/';
           $files = scandir($dir);
-          $caption = array_fill(0,53,"<-- No caption yet -->(￣y▽￣)╭ Ohohoho.....");
+          $caption = array_fill(0,53,"No caption (｡･∀･)ﾉﾞ");
           $images = array();
           $caption[0] = "Spielplatz, Davenportplatz";
           $caption[3] = "Library, Building 42, in front of mensa ";
-          
-          $pattern=array("03","13","14","19","23","25","26","45","46","51");
           foreach($files as $file) {
-            if (in_array(substr($file, 0, -4), $pattern)){
+            if(fnmatch('*.jpg', $file)){
               $images[] = $file;
             }
           }
-          
+          $myfile = fopen("php_exp.txt", "w") or die("Unable to open file!");
           $i = 0;
           foreach($images as $image){
             echo'<div class="pic-frame">';
-            echo '<img id="g-img" class = "thumbnail" src='.$dir.$image.'  alt="'.$caption[(int)$pattern[$i]].'"/>';
+            fwrite($myfile,"<div class=\"pic-frame\">".html_EOL);
+            echo '<img id="g-img" class = "thumbnail" src='.$dir.$image.'  alt="'.$caption[$i].'"/>';
+            fwrite($myfile,"\t<img id=\"g-img\" class = \"thumbnail\" src=".$dir.$image.'  alt="'.$caption[$i].'"/>'.html_EOL);
             echo'</div>';
+            fwrite($myfile,'</div>'.html_EOL.html_EOL);
             $i++;
           }
+          fclose($myfile);
         ?>
 
 

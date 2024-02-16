@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style_subpage.css">
   <link rel="stylesheet" href="style_pic.css">
+  <meta charset="utf-8">
 </head>
 <body>
   
@@ -34,7 +35,7 @@
     <div class="main-content">
 
       <div class="left-main">
-        <a class=left-username href="tsukihi_fenix.php">
+        <a class=left-username href="tsukihi_fenix.html">
           <div class="online-dot">
             <span class="dot" id="d-online"></span>
           </div>
@@ -44,7 +45,7 @@
         </a>
 
         <div class="active-page" >
-          <a class="back-button" href="index.php">
+          <a class="back-button" href="index.html">
             <img src="img/left-arrow-white.png" alt="back" width=12px>
           </a>
           <div class="active-page-title">
@@ -52,17 +53,19 @@
           </div>
         </div>  
 
-        <div class="catalogue-slim" id="active">
-            <div class="cat-text" id="ct-txt-b1-1">
-              <p><b>All</b></p>
-            </div>
-        </div>
-
-        <a class="catalogue-slim" id="cts1" href="pic_tuk.php">
-            <div class="cat-text" id="ct-txt-b1-1">
-              <p><b>TU Kaiserslautern</b></p>
-            </div>
+        <a class="catalogue-slim" id="cts1" href="picfromgermany.html">
+          <div class="cat-text" id="ct-txt-b1-1">
+            <p><b>All</b></p>
+          </div>
         </a>
+        
+
+        <div class="catalogue-slim" id="active">
+          <div class="cat-text" id="ct-txt-b1-1">
+            <p><b>TU Kaiserslautern</b></p>
+          </div>
+        </div>
+        
 
         <a class="catalogue-slim" id="cts1" href="">
             <div class="cat-text" id="ct-txt-b1-1">
@@ -91,8 +94,10 @@
           $images = array();
           $caption[0] = "Spielplatz, Davenportplatz";
           $caption[3] = "Library, Building 42, in front of mensa ";
+          
+          $pattern=array("03","13","14","19","23","25","26","45","46","51");
           foreach($files as $file) {
-            if(fnmatch('*.jpg', $file)){
+            if (in_array(substr($file, 0, -4), $pattern)){
               $images[] = $file;
             }
           }
@@ -100,7 +105,7 @@
           $i = 0;
           foreach($images as $image){
             echo'<div class="pic-frame">';
-            echo '<img id="g-img" class = "thumbnail" src='.$dir.$image.'  alt="'.$caption[$i].'"/>';
+            echo '<img id="g-img" class = "thumbnail" src='.$dir.$image.'  alt="'.$caption[(int)$pattern[$i]].'"/>';
             echo'</div>';
             $i++;
           }
