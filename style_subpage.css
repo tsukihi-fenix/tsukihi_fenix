@@ -1,0 +1,50 @@
+a {
+  text-decoration: none;
+}
+
+.active-page{
+  height: 40px;
+  width: 90%;
+  margin: 15px auto 0 auto ;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+}
+
+.back-button{
+  display: flex;
+  background-color: #f7d7d4;
+  border: solid 2px #32332f;
+  border-radius: 5px;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-button:hover{
+  background-color: #fbeeed;
+}
+
+.back-button img{
+  height: 20x;
+  width: 20px;
+}
+.active-page-title{
+  width: 85%;
+  padding: 12px;
+}
+
+.catalogue-slim{
+  margin: 15px auto 0 auto ;
+  width: 90%;
+  height: 40px;
+  background-color: #fffcec;
+  border: solid 2px  #32332f;
+  display: flex;
+  overflow: hidden;
+}
+.catalogue-slim:hover{
+  background-color: #f8f3e6;
+  cursor: pointer
+}
