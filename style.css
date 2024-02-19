@@ -84,6 +84,7 @@ body{
   border-radius: 50%;
   border-style: solid;
   border-color: #32332f;
+  border-width: 2px;
 }
 #d1{
   background-color: #ffceab;
